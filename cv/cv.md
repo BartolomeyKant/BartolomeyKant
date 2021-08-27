@@ -1,6 +1,6 @@
 # Китаев Антон
 
-<image src="../images/avatar.png" width="300"/>
+<image src="images/photo.jpg" width="300"/>
 
 email: [notevill@gmail.com](mailto:notevill@gmail.com) </br> 
 telegram: [@bartolomey_kant](https://t.me/bartolomey_kant)</br>
