@@ -2,9 +2,9 @@
 
 <image src="images/photo.jpg" width="300"/>
 
-email: [notevill@gmail.com](mailto:notevill@gmail.com) </br> 
-telegram: [@bartolomey_kant](https://t.me/bartolomey_kant)</br>
-phone: +7 927 305 6001
+<image src="images/email.png" width="12"/>  email: [notevill@gmail.com](mailto:notevill@gmail.com) </br>
+<image src="images/telegram.png" width="12"/>  telegram: [@bartolomey_kant](https://t.me/bartolomey_kant)</br>
+<image src="images/phone.png" width="12"/>  phone: +7 927 305 6001</br>
 
 ## Программист разработчик
 Разработка программного обеспечения
