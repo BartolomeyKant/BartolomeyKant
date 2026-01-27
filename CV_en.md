@@ -20,19 +20,20 @@ enrich and improve the expressiveness of the language ideas.
 
 ### Aethernet 2024 - Present
 
-Developed the most of client library architecture using modern C++, including
+Rebuilt the most of client library from proof of concept state to almost production ready, including:
 
 - Reflection-like system and serialization/deserialization module on pure c++17
 with a little bit of macros.
 - Custom smart pointer on graph able to resolve circular links.
 - Event system with support for multiple RAII subscriptions, recursion calls and
 event object life extension.
-- Action system for asynchronous operations on one thread.
-- Aether API protocol support with method invoking and dispatching.
+- Action system for asynchronous operations concurrently on single thread.
+- Aether API RPC protocol support with method invoking and dispatching.
 - TCP/UDP networking on pure posix and winsocket APIs, with platform specific
 pollers (epoll, kqueue, IOCP).
 - Build support for Linux, Mac, Windows, FreeBSD, ESP32
 (with ESP-IDF and Arduino IDE)
+- Unit testing with Unity framework.
 
 ### Tensor 2021 - 2024
 
