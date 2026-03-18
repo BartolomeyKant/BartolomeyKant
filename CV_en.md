@@ -1,99 +1,99 @@
-# Anton Kitaev Senior C++ Software Engineer
-<div class="row" style="display: flex;">
-<div style ="margin: 0 1% 0 0;">
-    <image src="images/photo_of_me.jpg" width="200" style="margin: auto auto;"/>
-</div>
-  
-<div> 
-    
-**Contact information**
+# Anton Kitaev
 
-email: `notevill@gmail.com` <br>
-telegram: [@bartolomey_kant](https://t.me/bartolomey_kant) <br>
-linkedin: [linkedin.com/in/anton-kitaev](https://linkedin.com/in/anton-kitaev) <br>
-github: [github.com/BartolomeyKant](https://github.com/BartolomeyKant) <br>
+C++ Software Engineer (*Systems, Networking, Cross-Platform*)
 
-### Summary
+EU Relocation Ready | Remote Worldwide
 
-I am a **C++** software engineer with more than 6 years of experience developing 
-cross-platform applications. 
-I have a strong background in modern **C++17 and later** features, 
-including template metaprogramming (*no fear of SFINAE*), RAII, lambdas, and smart pointers. 
-I always write code with a focus on readability, maintainability, and performance. 
-My passion is creating code tools and libraries that simplify development and 
-improve the expressiveness of language idioms.
+notevill@gmail.com |
+t.me/bartolomey_kant |
+linkedin.com/in/anton-kitaev |
+github.com/BartolomeyKant
 
-</div>
-</div>
+## Summary
 
-## Skills
-
-- **Languages:** C++ (17/20), Python, Bash, SQL.
-- **Systems & Networking:** Linux, Windows, FreeBSD, ESP-IDF, TCP/UDP, epoll, IOCP, kqueue, POSIX API.
-- **Architecture & Patterns:** Template Metaprogramming (*SFINAE + Concepts*), RAII, Asynchronous Programming, Reflection Systems, RPC Design.
-- **Frameworks & Libraries:** Qt (QML), Boost, Unity (Unit Testing), CPack.
-- **DevOps & Tools:** CMake, Git, Docker, SCons, GDB, Bloaty.
+ * 6+ years of experience in cross-platform **C++** development (linux, windows, macos, embedded). 
+* Deep expertise in systems programming: modern C++17/20, template metaprogramming, and custom library design (reflection, serialization).
+* Networking using TCP/UDP and platform specific I/O (epoll, kqueue, IOCP).
+* Architect and delivered core components for desktop remote administration tool used by over 100K monthly users.
+* Build cross-platform c++ client library for connectivity service from concept to production ready state.
 
 ## Experience
 
-### Aethernet 2024 - 2026
+### Aethernet Inc
 
-Æthernet is a cloud connectivity platform focused on energy-efficient IoT devices, 
-abstracting secure communication and network infrastructure for distributed 
-and resource-constrained systems, while remaining applicable to any application 
+*C++ Software Engineer | from june 2024*
+
+Æthernet is a cloud connectivity platform focused on energy-efficient IoT devices,
+abstracting secure communication and network infrastructure for distributed
+and resource-constrained systems, while remaining applicable to any application
 requiring reliable network communication.
 
-As a **C++ software engineer**, I rebuilt most of the client library from a 
-proof-of-concept state to near-production readiness, including:
+As a **C++ software engineer**, I rebuilt most the c++ client library from a
+proof-of-concept state to near-production readiness:
 
-- A **reflection-like system** and serialization/deserialization module in **pure C++17** with minimal use of macros.
-- A **custom smart pointer** for graphs capable of resolving circular links.
-- An **event system** with support for multiple RAII subscriptions, recursive calls, 
-and event object life extension.
-- An **action system** for asynchronous operations running concurrently on a **single thread**.
-- **Aether API RPC** protocol support with method invoking and dispatching.
-- **TCP/UDP networking** using pure POSIX and WinSock APIs, with **platform-specific 
-pollers (epoll, kqueue, IOCP)**.
-- Build support for Linux, macOS, Windows, FreeBSD, and ESP32 (with ESP-IDF and Arduino IDE).
-- Unit testing with the Unity framework.
+- Architectured and build **reflection-like system** on **pure C++17**
+with minimal use of macros, which provide types-safe and reliable access
+to class members and automatic **serialization/deserialization** function with
+simple one line declaration and makes implementation of API and data saving/loading
+much easier.
+- Developed a **custom smart pointer** on graphs capable of resolving circular links.
+This allows to implement a unique objects system with ability to load and unload
+any object from persistent storage during runtime, replace saved
+instance implementation depending on platform.
+This significantly  simplify writing secure and reliable code without fear of
+memory leaks and memory errors.
+- Built a single-threaded asynchronous framework to manage concurrent operations,
+ensuring predictable execution and preventing race conditions without explicit synchronisation.
+- Implemented the networking layer with POSIX/WinSock APIUs and platform specific
+I/O (epoll, kqueue, IOCP) to ensure optimal performance and low latency across
+all aupported platforms, with room to add additional implementation like LoRa,
+Bluetooth LE or satellite networks.
+- Co-designed the core RPC protocol and API for client-server and client-client
+communication.
+- Built and maintained the cross-platform build system with CMake, enabling a
+single code base to target Linux, macOS, Windows, FreeBSD and ESP32 embedded devices.
+- Implemented unit testing practices with Unity framework and test running on github CI.
+The test coverage saved a lot of time by not manual testing and not fixing reappearing bugs during high paced development process.
 
-Also, I:
+### Tensor
 
-- Perform **code reviews** and help colleagues better understand the codebase, 
-providing guidance on its effective and correct usage.
-- Participate in **API and RPC protocol design**.
-- Contribute to third-party libraries used or planned for use in the project.
-- Constantly research and experiment with new technologies, techniques, and tools 
-to optimize **project performance and binary size**.
+*Software Engineer / Team Lead | oct. 2021 - june 2024*
 
-### Tensor 2021 - 2024
+Architect and delivered core components for a high-performance cross-platform
+desktop application for remote administration serving **100k+ monthly users**.
 
-**Software Engineer / Team Lead**
-
-Developed a high-performance cross-platform desktop application for remote 
-administration serving **100k+ monthly users**.
-
-- Implemented fundamental core modules including the **pipeline system**, 
-**serialization/reflection engines**, and **event-driven** communication layers.
-- Designed and implemented custom GUI widgets and integrated system-level 
-services for **file and clipboard buffer sharing**.
-- **Managed the desktop development team**, overseeing the full delivery lifecycle 
+- **Managed the desktop development team**, overseeing the full delivery lifecycle
 from low-level logic to final deployment.
-- Automated multi-platform distribution (**Linux RPM, Windows MSI, macOS DMG**) 
-using **CMake** and **CPack**.
+- Implemented fundamental core modules including the **pipeline system**,
+**serialization/reflection engines**, and **event-driven** communication layers.
+- Designed and implemented custom GUI widgets and integrated system-level
+services for **file and clipboard buffer sharing**.
+- Automated multi-platform distribution (**Linux RPM, Windows MSI, macOS DMG**)
+using **CMake** and **CPack**. All in one codebase maintained by the development
+team which reduces cost for packaging tuning and fixing for installation related bugs.
 
-### Progress 2019 - 2021
+### Progress
 
-**Software Engineer**
+*Software Engineer | oct. 2019 - oct. 2021*
 
 Contributed to specialized networking and terminal solutions within a 
 high-velocity development team:
 
-- **Election Terminal:** Built frontend and backend components for a secure 
+- **Election Terminal:** Built frontend and backend components for a secure
 touch-screen voting interface using **C++** and **Qt (QML)**.
-- **PBX Operator Terminal:** Developed a Linux-based touchscreen application 
+- **PBX Operator Terminal:** Developed a Linux-based touchscreen application
 tailored for telecommunication operators.
 - **Networking Infrastructure:** Integrated VPN tunneling protocols (PPTP, L2TP, 
-IPsec/StrongSwan) into the **XORP-based router platform** using C++ and SCons.
+IPsec/StrongSwan) into the **XORP-based router platform** using C++, SCons, Buildroot.
 - **Tooling:** Designed a lightweight **automated testing framework** utilizing 
 Bash and Docker.
+
+## Education
+
+*Ufa State Aviation Technical University | 2011 - 2017*
+
+Master of Engineering - MEng, Mechatronics, Robotics, and Automation Engineering
+
+## Skills
+
+C++ (17/20) | Python | Bash | Linux | Windows | TCP/UDP | POSIX API | CMake | CPack | Git | Docker | Qt | Boost | Template Metaprogramming | Asynchronous Programming | GDB
