@@ -4,9 +4,9 @@ C++ Software Engineer (*Systems, Networking, Cross-Platform*)
 
 EU Relocation Ready | Remote Worldwide
 
-notevill@gmail.com |
-t.me/bartolomey_kant |
-linkedin.com/in/anton-kitaev |
+notevill@gmail.com •
+t.me/bartolomey_kant •
+linkedin.com/in/anton-kitaev •
 github.com/BartolomeyKant
 
 ## Summary
@@ -44,7 +44,7 @@ This significantly simplifies writing secure and reliable code without fear of
 memory leaks and memory errors.
 - Built a single-threaded asynchronous framework to manage concurrent operations,
 ensuring predictable execution and preventing race conditions without explicit synchronization.
-- Implemented the networking layer with POSIX/Winsock APIs and platform-specific
+- Implemented the networking layer with POSIX/WinSock APIs and platform-specific
 I/O (epoll, kqueue, IOCP) to ensure optimal performance and low latency across
 all supported platforms, with room to add additional implementations like LoRa,
 Bluetooth LE or satellite networks.
