@@ -11,55 +11,55 @@ github.com/BartolomeyKant
 
 ## Summary
 
- * 6+ years of experience in cross-platform **C++** development (linux, windows, macos, embedded). 
+* 6+ years of experience in cross-platform **C++** development (Linux, Windows, macOS, embedded).
 * Deep expertise in systems programming: modern C++17/20, template metaprogramming, and custom library design (reflection, serialization).
-* Networking using TCP/UDP and platform specific I/O (epoll, kqueue, IOCP).
-* Architect and delivered core components for desktop remote administration tool used by over 100K monthly users.
-* Build cross-platform c++ client library for connectivity service from concept to production ready state.
+* Networking using TCP/UDP and platform-specific I/O (epoll, kqueue, IOCP).
+* Architected and delivered core components for a desktop remote administration tool used by over 100K monthly users.
+* Built a cross-platform C++ client library for a connectivity service from concept to production-ready state.
 
 ## Experience
 
 ### Aethernet Inc
 
-*C++ Software Engineer | from june 2024*
+*C++ Software Engineer | from June 2024*
 
 Æthernet is a cloud connectivity platform focused on energy-efficient IoT devices,
 abstracting secure communication and network infrastructure for distributed
 and resource-constrained systems, while remaining applicable to any application
 requiring reliable network communication.
 
-As a **C++ software engineer**, I rebuilt most the c++ client library from a
+As a **C++ software engineer**, I rebuilt most of the C++ client library from a
 proof-of-concept state to near-production readiness:
 
-- Architectured and build **reflection-like system** on **pure C++17**
-with minimal use of macros, which provide types-safe and reliable access
-to class members and automatic **serialization/deserialization** function with
-simple one line declaration and makes implementation of API and data saving/loading
+- Architected and built a **reflection-like system** in **pure C++17**
+with minimal use of macros, which provides type-safe and reliable access
+to class members and automatic **serialization/deserialization** functions with
+simple one-line declarations. This makes implementation of APIs and data saving/loading
 much easier.
 - Developed a **custom smart pointer** on graphs capable of resolving circular links.
-This allows to implement a unique objects system with ability to load and unload
-any object from persistent storage during runtime, replace saved
+This allows implementing a unique object system with the ability to load and unload
+any object from persistent storage during runtime, replacing saved
 instance implementation depending on platform.
-This significantly  simplify writing secure and reliable code without fear of
+This significantly simplifies writing secure and reliable code without fear of
 memory leaks and memory errors.
 - Built a single-threaded asynchronous framework to manage concurrent operations,
-ensuring predictable execution and preventing race conditions without explicit synchronisation.
-- Implemented the networking layer with POSIX/WinSock APIUs and platform specific
+ensuring predictable execution and preventing race conditions without explicit synchronization.
+- Implemented the networking layer with POSIX/Winsock APIs and platform-specific
 I/O (epoll, kqueue, IOCP) to ensure optimal performance and low latency across
-all aupported platforms, with room to add additional implementation like LoRa,
+all supported platforms, with room to add additional implementations like LoRa,
 Bluetooth LE or satellite networks.
 - Co-designed the core RPC protocol and API for client-server and client-client
 communication.
 - Built and maintained the cross-platform build system with CMake, enabling a
-single code base to target Linux, macOS, Windows, FreeBSD and ESP32 embedded devices.
-- Implemented unit testing practices with Unity framework and test running on github CI.
-The test coverage saved a lot of time by not manual testing and not fixing reappearing bugs during high paced development process.
+single codebase to target Linux, macOS, Windows, FreeBSD and ESP32 embedded devices.
+- Implemented unit testing practices with the Unity framework and test running on GitHub CI.
+The test coverage saved a lot of time by reducing manual testing and preventing reappearing bugs during the high-paced development process.
 
 ### Tensor
 
-*Software Engineer / Team Lead | oct. 2021 - june 2024*
+*Software Engineer / Team Lead | Oct. 2021 - June 2024*
 
-Architect and delivered core components for a high-performance cross-platform
+Architected and delivered core components for a high-performance cross-platform
 desktop application for remote administration serving **100k+ monthly users**.
 
 - **Managed the desktop development team**, overseeing the full delivery lifecycle
@@ -70,11 +70,11 @@ from low-level logic to final deployment.
 services for **file and clipboard buffer sharing**.
 - Automated multi-platform distribution (**Linux RPM, Windows MSI, macOS DMG**)
 using **CMake** and **CPack**. All in one codebase maintained by the development
-team which reduces cost for packaging tuning and fixing for installation related bugs.
+team, which reduces costs for packaging tuning and fixing installation-related bugs.
 
 ### Progress
 
-*Software Engineer | oct. 2019 - oct. 2021*
+*Software Engineer | Oct. 2019 - Oct. 2021*
 
 Contributed to specialized networking and terminal solutions within a 
 high-velocity development team:
