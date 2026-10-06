@@ -2,7 +2,7 @@
 
 C++ Software Engineer (*Systems, Networking, Cross-Platform*)
 
-EU Relocation Ready | Remote Worldwide
+Onsite/Hybrid with relocation  | Remote Worldwide
 
 notevill@gmail.com •
 t.me/bartolomey_kant •
@@ -21,7 +21,7 @@ github.com/BartolomeyKant
 
 ### Aethernet Inc
 
-*C++ Software Engineer | from June 2024*
+*C++ Software Engineer | June 2024 - Sept. 2026*
 
 Æthernet is a cloud connectivity platform focused on energy-efficient IoT devices,
 abstracting secure communication and network infrastructure for distributed
